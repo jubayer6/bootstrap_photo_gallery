@@ -1,0 +1,31 @@
+#photo{
+    position: relative;
+    background: linear-gradient(rgba(255, 255, 255, 0.692),rgba(255, 255, 255, 0.658)),url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#photo .ex_photo{
+    position: absolute;
+}
+
+#photo .three{
+    top: 5%;
+    left: 5%;
+}
+
+#photo .two{
+    top: 35%;
+    right: 1%;
+    width: 100px;
+}
+
+#photo .one{
+    top: 1%;
+    left: 48%;
+}
+
+#photo .container img{
+    height: 250px;
+}
